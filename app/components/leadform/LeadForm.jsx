@@ -164,7 +164,7 @@ export default function LeadForm() {
               className={`w-full px-4 py-3 rounded border focus:ring-2 focus:outline-none transition-all ${
                 errors.name 
                   ? "border-red-300 focus:ring-red-200" 
-                  : "border-gray-300 focus:border-blue-500 focus:ring-blue-200"
+                  : "border-gray-300 focus:border-orange-500 focus:ring-orange-200"
               }`}
             />
             {errors.name && (
@@ -186,7 +186,7 @@ export default function LeadForm() {
               className={`w-full px-4 py-3 rounded border focus:ring-2 focus:outline-none transition-all ${
                 errors.email 
                   ? "border-red-300 focus:ring-red-200" 
-                  : "border-gray-300 focus:border-blue-500 focus:ring-blue-200"
+                  : "border-gray-300 focus:border-orange-500 focus:ring-orange-200"
               }`}
             />
             {errors.email && (
@@ -208,7 +208,7 @@ export default function LeadForm() {
               className={`w-full px-4 py-3 rounded border focus:ring-2 focus:outline-none transition-all ${
                 errors.company 
                   ? "border-red-300 focus:ring-red-200" 
-                  : "border-gray-300 focus:border-blue-500 focus:ring-blue-200"
+                  : "border-gray-300 focus:border-orange-500 focus:ring-orange-200"
               }`}
             />
             {errors.company && (

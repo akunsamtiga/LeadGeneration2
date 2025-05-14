@@ -27,7 +27,7 @@ export default function CTA() {
     <section className="relative py-28 px-6 bg-white overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-blue-50 to-white opacity-40"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-orange-50 to-white opacity-40"></div>
         
         {/* Grid pattern */}
         <div className="absolute inset-0 opacity-10">
@@ -69,7 +69,7 @@ export default function CTA() {
               boxShadow: "0 4px 20px rgba(29, 78, 216, 0.2)"
             }}
             whileTap={{ scale: 0.98 }}
-            className="px-8 py-4 bg-blue-600 text-white font-medium rounded-lg shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all"
+            className="px-8 py-4 bg-orange-600 text-white font-medium rounded-lg shadow-sm hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 transition-all"
           >
             Mulai Sekarang
           </motion.a>
@@ -81,7 +81,7 @@ export default function CTA() {
               boxShadow: "0 4px 20px rgba(0, 0, 0, 0.1)"
             }}
             whileTap={{ scale: 0.98 }}
-            className="px-8 py-4 bg-white text-gray-900 font-medium rounded-lg border border-gray-300 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all"
+            className="px-8 py-4 bg-white text-gray-900 font-medium rounded-lg border border-gray-300 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 transition-all"
           >
             Minta Demo
           </motion.a>

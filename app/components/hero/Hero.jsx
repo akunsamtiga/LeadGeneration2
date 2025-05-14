@@ -54,7 +54,7 @@ export default function Hero() {
       type: 'diagonal',
       start: { x: '10%', y: '15%' },
       end: { x: '25%', y: '30%' },
-      color: 'bg-blue-200',
+      color: 'bg-orange-200',
       width: 'w-0.5',
       delay: 0.4
     },
@@ -105,7 +105,7 @@ export default function Hero() {
       {/* Dynamic background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
-          className="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-blue-100 blur-3xl opacity-40"
+          className="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-orange-100 blur-3xl opacity-40"
           animate={{
             y: [0, -20, 0],
           }}
@@ -152,12 +152,12 @@ export default function Hero() {
             className="opacity-80"
           >
             <Image
-              src="/images/burger.png"
+              src="/images/m1.jpg"
               alt="Burger"
               width={150}
               height={150}
               priority
-              className="filter drop-shadow-lg"
+              className="filter drop-shadow-lg rounded-full"
             />
           </motion.div>
         </motion.div>
@@ -212,7 +212,7 @@ export default function Hero() {
             className="opacity-80"
           >
             <Image
-              src="/images/cheetos.png"
+              src="/images/m2.jpg"
               alt="Cheetos"
               width={150}
               height={150}
@@ -327,8 +327,8 @@ export default function Hero() {
         animate="visible"
       >
         <motion.div variants={itemVariants} className="mb-6">
-          <span className="inline-block px-3 py-1 text-xs font-medium tracking-wider text-blue-600 uppercase bg-blue-100 rounded-full">
-            Pengalaman Kuliner Premium
+          <span className="inline-block px-4 py-2 text-lg font-medium tracking-wider text-orange-600 uppercase bg-orange-100 rounded-full">
+            Rasa Nusantara
           </span>
         </motion.div>
         
@@ -336,7 +336,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6"
         >
-          Tingkatkan Perjalanan <span className="text-blue-600">Rasa</span> Anda
+          Tingkatkan Perjalanan <span className="text-orange-600">Rasa</span> Anda
         </motion.h1>
         
         <motion.p
@@ -351,7 +351,7 @@ export default function Hero() {
             onClick={handleGetStarted}
             whileHover={{ scale: 1.05, boxShadow: "0 4px 12px rgba(59, 130, 246, 0.3)" }}
             whileTap={{ scale: 0.95 }}
-            className="px-8 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all"
+            className="px-8 py-3 bg-orange-600 text-white font-medium rounded-lg shadow-md hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 transition-all"
           >
             Mulai Sekarang
           </motion.button>
@@ -359,7 +359,7 @@ export default function Hero() {
             onClick={() => router.push("/contact")}
             whileHover={{ scale: 1.05, boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)" }}
             whileTap={{ scale: 0.95 }}
-            className="px-8 py-3 bg-white text-gray-900 font-medium rounded-lg border border-gray-300 shadow-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all"
+            className="px-8 py-3 bg-white text-gray-900 font-medium rounded-lg border border-gray-300 shadow-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 transition-all"
           >
             Menu Kami
           </motion.button>

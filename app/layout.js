@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: 'Landing Page Kuliner',
-  description: 'Halaman landing modern dengan animasi penuh untuk meningkatkan pemasaran kuliner.',
+  title: 'Rasa Nusantara',
+  description: 'Menghadirkan kelezatan kuliner tradisional Indonesia dengan sentuhan modern.',
 };
 
 export default function RootLayout({ children }) {

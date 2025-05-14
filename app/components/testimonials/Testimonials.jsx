@@ -57,7 +57,7 @@ export default function Testimonials() {
     <section id="testimonials" className="relative py-24 px-6 bg-white overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
-        <div className="absolute top-1/4 left-1/4 w-32 h-32 rounded-full bg-blue-50 blur-3xl opacity-40"></div>
+        <div className="absolute top-1/4 left-1/4 w-32 h-32 rounded-full bg-orange-50 blur-3xl opacity-40"></div>
         <div className="absolute bottom-1/3 right-1/4 w-40 h-40 rounded-full bg-gray-100 blur-3xl opacity-30"></div>
         
         {/* Grid lines */}
@@ -103,7 +103,7 @@ export default function Testimonials() {
                 <div>
                   <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
                   <p className="text-sm text-gray-500">{testimonial.job}</p>
-                  <p className="text-xs text-blue-600 font-medium mt-1">{testimonial.company}</p>
+                  <p className="text-xs text-orange-600 font-medium mt-1">{testimonial.company}</p>
                 </div>
               </div>
               
@@ -148,7 +148,7 @@ export default function Testimonials() {
           variants={fadeIn}
           className="mt-16 text-center"
         >
-          <button className="inline-flex items-center px-6 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all">
+          <button className="inline-flex items-center px-6 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 transition-all">
             Lihat Lebih Banyak Testimoni
             <svg className="ml-3 -mr-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
