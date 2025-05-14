@@ -6,7 +6,7 @@ export default function NotFound() {
     <div className="min-h-screen flex items-center justify-center bg-white text-gray-800 font-sans">
       <div className="text-center max-w-lg px-6 py-12">
         <h1 className="text-6xl font-extrabold mb-4 text-gray-900">404</h1>
-        <p className="text-lg mb-6 text-gray-600">Oops! The page you're looking for doesn't exist.</p>
+        <p className="text-lg mb-6 text-gray-600">Oops! The page you&apos;re looking for doesn&apos;t exist.</p>
         <Link
           href="/"
           className="inline-block bg-gray-900 text-white py-3 px-8 rounded-md text-lg font-semibold hover:bg-gray-800 transition duration-300"
